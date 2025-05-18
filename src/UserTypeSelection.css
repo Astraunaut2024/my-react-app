@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* User type container */
+.user-type-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4CAF50, #8BC34A); /* Green gradient */
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Title styling */
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/* Container for user type options */
+.user-type-options {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* User type card styling */
+.user-type-card {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px;
+}
+
+.user-type-card:hover {
+  transform: scale(1.05);
+}
+
+.user-type-card img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.user-type-card h2 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}

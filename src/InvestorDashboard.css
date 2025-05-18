@@ -1,0 +1,166 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+  }
+  
+  /* Dashboard container */
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f3f4f6;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  /* Heading */
+  .text-3xl {
+    font-size: 2rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-green-600 {
+    color: #16a34a;
+  }
+  
+  /* Section Spacing - Applies even spacing between sections */
+  .section-spacing {
+    margin-bottom: 2.5rem; /* Increased margin for better spacing between sections */
+  }
+  
+  /* Overview Cards */
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .gap-6 {
+    gap: 1.5rem; /* Space between cards */
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.75rem;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .text-3xl {
+    font-size: 2rem;
+    margin-right: 1rem; /* Space between icon and text */
+  }
+  
+  /* Investor Table */
+  .table-auto {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .bg-gray-200 {
+    background-color: #e5e7eb;
+  }
+  
+  .border-t {
+    border-top: 1px solid #ddd;
+  }
+  
+  .p-3 {
+    padding: 0.75rem;
+  }
+  
+  /* Chart Container */
+  .responsive-container {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* Live Investment Feed */
+  marquee {
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 2.5rem; /* Consistent bottom spacing */
+  }
+  
+  /* Notification Section */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 0.75rem 0; /* Increased padding for better spacing */
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Reviews Section */
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-yellow-500 {
+    color: #fbbf24;
+  }
+  
+  /* Success Stories */
+  .story-card {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #16a34a;
+    background: #f0fff4;
+  }
+  
+  /* Ensure spacing for the last section */
+  .last-section {
+    margin-bottom: 3rem; /* Extra space at the bottom of the last section */
+  }
+  

@@ -1,0 +1,121 @@
+/* SellingDashboard.css */
+
+/* General Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Container */
+.farmer-list-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+    min-height: 100vh;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.search-bar input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    color: #333;
+}
+
+/* Farmer Card */
+.farmer-card {
+    background: #f1f1f1;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.farmer-header {
+    display: flex;
+    align-items: center;
+}
+
+.farmer-header div {
+    margin-left: 10px;
+}
+
+.farmer-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.farmer-header p {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Product List */
+.product-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-top: 8px;
+    scroll-snap-type: x mandatory;
+}
+
+.product-scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.product-card {
+    flex: none;
+    text-align: center;
+    scroll-snap-align: start;
+    margin-right: 8px;
+}
+
+/* Ensure uniform image size */
+.product-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card p {
+    font-size: 12px;
+}
+
+/* Scroll Button */
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: white;
+    padding: 4px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Distance */
+.distance-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+    margin-top: 8px;
+}
+
+.distance-info svg {
+    margin-right: 4px;
+}
