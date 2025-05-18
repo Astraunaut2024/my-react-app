@@ -68,3 +68,104 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Agri-Invest Project
+
+## Project Overview
+
+The Agri-Invest project is a React-based web application designed to support agricultural investment. The project aims to provide a platform where investors can connect with agricultural initiatives, track progress, and make informed investment decisions.
+
+## Features
+
+* User-friendly interface to explore agricultural investment opportunities.
+* Investment tracking and management.
+* Real-time updates on project performance.
+* Data visualization for investment statistics.
+* Secure and reliable data management.
+
+## Technologies Used
+
+* **React.js**: Frontend framework for building the user interface.
+* **Chakra UI**: For responsive and accessible UI components.
+* **FastAPI**: Backend API for handling data and business logic.
+* **Python**: Backend processing and data management.
+* **Database**: Relational/NoSQL database for storing project and investment data.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/agri-invest.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd agri-invest
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+## Project Structure
+
+Agri-Invest/
+├── public/              # Public assets and HTML file
+├── src/                 # Source files
+│   ├── components/      # Reusable React components
+│   ├── pages/           # Page components
+│   ├── services/        # API interaction and business logic
+│   ├── utils/           # Helper functions
+│   ├── styles/          # Global and component-specific styles
+│   └── App.js           # Main application file
+└── package.json         # Project metadata and dependencies
+
+## Code Explanation
+
+The components/ directory contains reusable UI components such as buttons and cards.
+The pages/ directory includes pages like Home, Investment, and Dashboard.
+The services/ directory handles API calls to the FastAPI backend.
+The utils/ directory contains utility functions and helper modules.
+
+## Extending the Project
+
+To add a new feature, create a new component in the components/ directory and update the respective page in pages/ to include the new feature. Use the services/ directory for backend interaction.
+
+## Usage
+
+* Access the application at `http://localhost:3000`.
+* Register or log in to your account.
+* Browse available agricultural projects and make investments.
+* Track the performance of your investments through detailed analytics.
+
+## Contribution Guidelines
+
+* Fork the repository.
+* Create a new branch for your feature/fix:
+
+  ```bash
+  git checkout -b feature-name
+  ```
+* Commit your changes with a descriptive message:
+
+  ```bash
+  git commit -m "Add feature-name"
+  ```
+* Push to your branch:
+
+  ```bash
+  git push origin feature-name
+  ```
+* Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
